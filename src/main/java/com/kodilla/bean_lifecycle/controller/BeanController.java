@@ -1,5 +1,6 @@
-package com.kodilla.bean_lifecycle;
+package com.kodilla.bean_lifecycle.controller;
 
+import com.kodilla.bean_lifecycle.SimpleBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
