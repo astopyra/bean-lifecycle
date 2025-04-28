@@ -15,7 +15,7 @@ import java.util.Map;
 public class StudentController {
 
     @GetMapping
-    public Map<Integer, String> createStudents(@RequestParam(defaultValue = "20") int n,
+    public Map<Integer, String> createStudents(@RequestParam(defaultValue = "10") int n,
                                                @RequestParam(defaultValue = "10") int z) throws NoSuchFieldException, IllegalAccessException {
         Student[] studentsArray = new Student[n];
         Map<Integer, String> studentsMap = new HashMap<>();
